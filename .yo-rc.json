@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.app2automate",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "app2automate",
+    "packageName": "org.app2automate",
+    "packageFolder": "org/app2automate",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NWYwZjQwMmU4ZDdhZWFkZjI3ODc4ZjAxOWY0YjZiN2E2OTRlZGM1NmE1MzdmNGY1N2M4OGRmMWQ5ZWYyNzI5NTA3NjI5ZTc2MTZhNWJkZGVlNzg4MDU0YzkxNWMzZmU1NmZjOGYwYzM1MmViYzYwYWE1YTcwZDA0YTJmNTk1YWU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "es"],
+    "blueprints": []
+  }
+}

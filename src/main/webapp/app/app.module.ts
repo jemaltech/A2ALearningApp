@@ -18,12 +18,10 @@ import { App2AutomateAppContactUsModule } from './contact-us/contact-us.module';
 import { App2AutomateAppAutomationModule } from './automation/automation.module';
 import { App2AutomateAppProjectsModule } from './projects/projects.module';
 import { App2AutomateAppManualModule } from './manual/manual.module';
-import { App2AutomateAppCalenderModule } from './calender/calender.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent } from './layouts/main/main.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { FooterComponent } from './layouts/footer/footer.component';
-import { HeaderComponent } from './layouts/header/header.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
@@ -40,20 +38,11 @@ import { ErrorComponent } from './layouts/error/error.component';
     App2AutomateAppAutomationModule,
     App2AutomateAppProjectsModule,
     App2AutomateAppManualModule,
-    App2AutomateAppCalenderModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     App2AutomateEntityModule,
     App2AutomateAppRoutingModule
   ],
-  declarations: [
-    JhiMainComponent,
-    NavbarComponent,
-    ErrorComponent,
-    PageRibbonComponent,
-    ActiveMenuDirective,
-    FooterComponent,
-    HeaderComponent
-  ],
+  declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,

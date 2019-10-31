@@ -1,0 +1,32 @@
+/* automation.component.scss */
+
+@import '../../../../../startbootstrap-creative/vendor/fontawesome-free/css/all.min.css';
+
+@import '../../../../../startbootstrap-creative/vendor/magnific-popup/magnific-popup.css';
+
+@import '../../../../../startbootstrap-creative/css/creative.css';
+
+// <!-- Google Fonts -->
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic');
+
+@import '~bootstrap/scss/bootstrap';
+
+.contactUs {
+  padding-top: 4rem;
+  background-color: #166cc2;
+}
+.contact {
+  padding-top: 5rem;
+  //background: #25274d;
+  padding-bottom: 5rem;
+}
+
+.imgBackground {
+  background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 480px;
+}

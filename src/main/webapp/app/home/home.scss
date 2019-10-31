@@ -1,6 +1,33 @@
+@import '../../../../../startbootstrap-creative/vendor/fontawesome-free/css/all.min.css';
+
+//@import '../../../../../startbootstrap-creative/vendor/magnific-popup/magnific-popup.css';
+
+@import '../../../../../startbootstrap-creative/css/creative.css';
+
+// <!-- Google Fonts -->
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic');
+
+.top-section {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(50, 50, 202) 35%, rgba(0, 212, 255, 1) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 /* ==========================================================================
 Main page styles
-========================================================================== */
+========================================================================== 
+
 
 .hipster {
   display: inline-block;
@@ -10,7 +37,7 @@ Main page styles
   background-size: contain;
 }
 
-/* wait autoprefixer update to allow simple generation of high pixel density media query */
+/* wait autoprefixer update to allow simple generation of high pixel density media query 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (-moz-min-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -20,4 +47,87 @@ Main page styles
     background: url('../../content/images/jhipster_family_member_1.svg') no-repeat center top;
     background-size: contain;
   }
+}
+*/
+.page-section {
+  padding-top: 12px;
+  padding-bottom: 9px;
+}
+#more {
+  display: none;
+}
+
+.upcoming {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  //background-color: #8fbc8f;
+  background: linear-gradient(90deg, rgb(158, 132, 15) 0%, #8fbc8f 35%, rgb(78, 132, 143) 100%), url('../../content/images/info-image.png');
+
+  //background: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg') no-repeat center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  //bg-gradient-light
+  //background-color: cornflowerblue;
+}
+
+.info {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgb(158, 132, 15) 0%, rgb(136, 154, 202) 35%, rgb(78, 132, 143) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.bg-service {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgb(158, 132, 15) 0%, rgb(176, 190, 136) 35%, rgb(129, 169, 177) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.bg-service-auto {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgb(155, 150, 126) 0%, rgb(159, 161, 154) 45%, rgba(0, 212, 255, 1) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.icon-logo {
+  width: 85px; /* you can use % */
+  height: auto;
+  color: #f4623a;
+  //background-color: #f4623a;
+}
+.selenium-icon {
+  color: #f4623a;
+  text-decoration: none;
+  background: url('https://www.seleniumhq.org/images/big-logo.png');
+  //background-color: transparent;
+}
+
+.icon-logo {
+  width: 85px; /* you can use % */
+  height: auto;
+  //background-color: #f4623a;
+  font-family: FontAwesome;
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
 }

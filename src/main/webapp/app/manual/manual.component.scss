@@ -1,0 +1,29 @@
+/* manual.component.scss */
+
+.manual {
+  padding-top: 7rem;
+  background-color: #166cc2;
+}
+#main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.carousel-control-next:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+// content
+
+.contactUs {
+  padding-top: 5rem;
+  background-color: #166cc2;
+}
+.contact {
+  //padding-top: 1rem;
+  //background: #25274d;
+  padding-bottom: 5rem;
+}

@@ -12,7 +12,7 @@
 
 eureka:
   instance:
-    hostname: a2alearning.herokuapp.com
+    hostname: code2automate.herokuapp.com
     non-secure-port: 80
     prefer-ip-address: false
 

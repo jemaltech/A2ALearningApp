@@ -38,7 +38,7 @@
     "nativeLanguage": "en",
     "languages": ["en", "es"],
     "blueprints": [],
-    "herokuAppName": "a-2-a-learning",
+    "herokuAppName": "a2alearning",
     "herokuDeployType": "git"
   }
 }

@@ -17,9 +17,7 @@
   background-color: #166cc2;
 }
 .contact {
-  padding-top: 5rem;
-  //background: #25274d;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 
 .imgBackground {
@@ -27,4 +25,18 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 480px;
+}
+
+.info {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgb(158, 132, 15) 0%, rgb(136, 154, 202) 35%, rgb(78, 132, 143) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }

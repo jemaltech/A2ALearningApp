@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top py-3" id="mainNav">
     <a class="navbar-brand logo" routerLink="/" (click)="collapseNavbar()">
         <!-- <span class="logo-img"></span> -->
-        <span jhiTranslate="global.title" class="navbar-title">A2ALearning</span>
+        <span jhiTranslate="global.title" class="navbar-title uppercase">A2ALearning</span>
     </a>
     <a class="navbar-toggler d-lg-none" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
         <fa-icon icon="bars"></fa-icon>
@@ -12,21 +12,21 @@
                 <a class="nav-link" routerLink="/" (click)="collapseNavbar()">
                     <span>
                         <fa-icon icon="home"></fa-icon>
-                        <span jhiTranslate="global.menu.home">Home</span>
+                        <span jhiTranslate="global.menu.home" class="uppercase">Home</span>
                     </span>
                 </a>
             </li>
             
             <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                 <a class="nav-link" routerLink="about-us" (click)="collapseNavbar()">
-                    <span jhiTranslate="global.menu.about-us">Curriculum</span>
+                    <span jhiTranslate="global.menu.about-us" class="uppercase">Curriculum</span>
                 </a>
             </li>
 
             <li ngbDropdown class="nav-item dropdown pointer" display="dynamic">
                     <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="trainingOptions">
                         <span>
-                            <span jhiTranslate="global.menu.courses">Training Options</span>
+                            <span jhiTranslate="global.menu.courses" class="uppercase">Courses</span>
                         </span>
                     </a>
                     <ul class="dropdown-menu" ngbDropdownMenu aria-labelledby="trainingOptions">
@@ -115,7 +115,7 @@
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="languagesnavBarDropdown">
                     <span>
                         <fa-icon icon="flag"></fa-icon>
-                        <span jhiTranslate="global.menu.language">Language</span>
+                        <span jhiTranslate="global.menu.language" class="uppercase">Language</span>
                     </span>
                 </a>
                 <ul class="dropdown-menu" ngbDropdownMenu aria-labelledby="languagesnavBarDropdown">
@@ -128,7 +128,7 @@
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="account-menu">
                   <span *ngIf="!getImageUrl()">
                     <fa-icon icon="user"></fa-icon>
-                    <span jhiTranslate="global.menu.account.main">
+                    <span jhiTranslate="global.menu.account.main" class="uppercase">
                       Account
                     </span>
                   </span>
@@ -169,7 +169,7 @@
                     </li>
                 </ul>
             </li>
-            <!-- Request A free demo 
+            <!-- Request A free demo -->
             <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                     <a class="nav-link" routerLink="contact-us" (click)="collapseNavbar()">
                             <button type="button" class="btn btn-primary bg-primary btn-lg active">Request a Free Demo</button>
@@ -177,7 +177,7 @@
 
                     </a>
                 </li>
-                -->
+                
         </ul>
     </div>
 </nav>

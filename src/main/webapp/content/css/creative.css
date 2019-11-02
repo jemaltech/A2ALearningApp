@@ -9986,7 +9986,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(229, 231, 241, 0.8) 0%, rgba(233, 239, 243, 0.8) 100%), url('../images/bgsection.jpeg');
+  background: linear-gradient(to bottom, rgba(133, 201, 56, 0.8) 0%, rgba(171, 160, 235, 0.8) 100%), url('../images/quality-info.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

@@ -63,3 +63,17 @@ pre {
   background-color: #f5f5f5;
   padding: 15px;
 }
+
+.info {
+  padding-top: 3rem;
+  //padding-bottom: calc(10rem - #{$navbar-height});
+  padding-bottom: 2p;
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  background: linear-gradient(90deg, rgb(158, 132, 15) 0%, rgb(206, 210, 221) 35%, rgb(213, 220, 221) 100%),
+    url('../../content/images/info-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}

@@ -6,6 +6,6 @@ services:
       - ~/volumes/jhipster/app2automate/postgresql/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=app2automate
-      - POSTGRES_PASSWORD=techno2009
+      - POSTGRES_PASSWORD=techno@2009
     ports:
       - 5432:5432
